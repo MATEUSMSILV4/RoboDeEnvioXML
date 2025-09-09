@@ -34,8 +34,8 @@ pip install pywin32
 
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/robo-envio-xml.git
-cd robo-envio-xml
+git clone https://github.com/MATEUSMSILV4/RoboDeEnvioXML.git
+cd RoboDeEnvioXML
 
 
 Execute o programa:
