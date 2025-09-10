@@ -1,24 +1,24 @@
-📦 Robô de Envio de XML via Outlook
+📦 RoboDeEnvioDeArquivos
 
-Este projeto é um robô automatizado em Python que envia arquivos XML em lotes sequenciais por e-mail utilizando o Microsoft Outlook.
+Este projeto é um robô automatizado em Python que envia qualquer tipo de arquivo em lotes sequenciais ou todos de uma vez por e-mail utilizando o Microsoft Outlook.
 
 🚀 Funcionalidades
 
-Envio automático de todos os XMLs de uma pasta.
+Envio automático de todos os arquivos de uma pasta.
 
-Envio realizado em lotes configuráveis (ex: 50 por vez).
+Possibilidade de enviar todos de uma vez ou em lotes configuráveis (ex: 50 por vez).
 
 Os arquivos são enviados em ordem sequencial até que todos sejam processados.
 
 O programa roda no CMD e solicita:
 
-📂 Caminho da pasta dos XMLs
+📂 Caminho da pasta dos arquivos
 
 📧 E-mail destinatário
 
-📦 Quantidade de arquivos por lote
+📦 Quantidade de arquivos por lote (quando escolhido o envio em lotes)
 
-O CMD permanece aberto até que o processo seja concluído, exibindo mensagens de status a cada lote enviado.
+O CMD permanece aberto até que o processo seja concluído, exibindo mensagens de status a cada lote ou envio único.
 
 🔧 Requisitos
 
@@ -26,7 +26,7 @@ Python 3.8+
 
 Microsoft Outlook instalado e configurado
 
-Dependências:
+Dependência:
 
 pip install pywin32
 
@@ -34,8 +34,8 @@ pip install pywin32
 
 Clone o repositório:
 
-git clone https://github.com/MATEUSMSILV4/RoboDeEnvioXML.git
-cd RoboDeEnvioXML
+git clone https://github.com/MATEUSMSILV4/RoboDeEnvioDeArquivos.git
+cd RoboDeEnvioDeArquivos
 
 
 Execute o programa:
@@ -43,7 +43,7 @@ Execute o programa:
 python main.py
 
 
-Informe os dados solicitados (pasta, e-mail e tamanho do lote).
+Informe os dados solicitados (pasta, e-mail e escolha entre envio único ou em lotes).
 
 🛠 Gerar Executável (Windows)
 
